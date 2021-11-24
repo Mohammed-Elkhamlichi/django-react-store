@@ -1,0 +1,7 @@
+================================= Error 1 ======================================
+error : 
+& : File M:\my\projects\store\store-env\Scripts\Activate.ps1 cannot be loaded 
+because running scripts is disabled on this system.
+solution :
+=> Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+================================= Error 2 ======================================
