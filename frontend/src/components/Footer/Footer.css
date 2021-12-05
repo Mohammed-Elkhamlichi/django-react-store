@@ -1,0 +1,11 @@
+.footer{
+    background: brown;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+}
+.footer > p{
+    font-size: 10px;
+    color: cyan;
+}
