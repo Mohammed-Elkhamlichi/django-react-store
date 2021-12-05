@@ -1,7 +1,7 @@
 .product {
     background-color: cyan;
     margin: 10px;
-    width: 230px;
+    width: 30%;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -20,6 +20,10 @@
 .product_price {
     font-weight: bold;
     font-size: 14px;
+    background-color: cornsilk;
+    width: 20%;
+    border: 1px solid block;
+    margin: 0 auto;
 }
 .by_now_button {
     background-color: green;
@@ -27,6 +31,7 @@
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
+    margin: 15px auto 0 auto;
 }
 @media only screen and (max-width: 876px) {
     .product {

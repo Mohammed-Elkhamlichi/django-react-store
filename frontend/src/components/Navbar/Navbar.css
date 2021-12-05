@@ -3,6 +3,8 @@
     height: 60px;
     border: white;
     margin-top: 10px;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
 }
 .navbar > a {
     color: white;

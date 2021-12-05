@@ -1,7 +1,8 @@
 .container {
     background-color: green;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     justify-content: stretch;
+    
 }
 .products {
     display: flex;
