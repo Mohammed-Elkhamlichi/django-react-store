@@ -2,7 +2,6 @@ import React from "react";
 import ReactDom from "react-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css.map";
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Index = () => {
     return (
