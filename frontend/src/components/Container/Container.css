@@ -1,5 +1,18 @@
-.container{
+.container {
     background-color: green;
-    height: 400px;
     margin-top: 10px;
+    justify-content: stretch;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 876px) {
+  .products {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+  }
 }
