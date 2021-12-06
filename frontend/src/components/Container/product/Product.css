@@ -1,7 +1,6 @@
 .product {
     background-color: cyan;
     margin: 10px;
-    width: 30%;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -12,11 +11,12 @@
     border-radius: 5px;
 }
 .product_title {
+    width: 100%;
     font-size: 10px;
     font-weight: bold;
 }
-.product_description {
-}
+/* .product_description {
+} */
 .product_price {
     font-weight: bold;
     font-size: 14px;
@@ -33,7 +33,8 @@
     border-radius: 5px;
     margin: 15px auto 0 auto;
 }
-@media only screen and (max-width: 876px) {
+
+@media screen and (max-width: 500px) {
     .product {
         margin: 10px auto;
         width: 100%;
@@ -46,5 +47,16 @@
         width: 50%;
         border-radius: 5px;
         margin: 10px auto 0px auto;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .product {
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    .product {
+        margin: 10px;
     }
 }

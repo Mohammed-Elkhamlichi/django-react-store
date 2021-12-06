@@ -4,37 +4,37 @@ import macBook from "../../images/MacBook-Pro.jpg";
 
 const Products = [
     {
-        img: {dell},
+        img: dell,
         title: "Iphone 13 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
     {
-        img: {iphone},
+        img: iphone,
         title: "Iphone 12 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
     {
-        img: {macBook},
+        img: macBook,
         title: "Iphone 12 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
     {
-        img: {dell},
+        img: dell,
         title: "Iphone 12 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
     {
-        img: {iphone},
+        img: iphone,
         title: "Iphone 12 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
     {
-        img: {macBook},
+        img: macBook,
         title: "Iphone 12 Pro Max 2021",
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",

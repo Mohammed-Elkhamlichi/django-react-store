@@ -9,7 +9,6 @@ const Product = (props) => {
             <span className='product_title'>{title}</span>
             <div className='product_price'>{price}</div>
             <div className='by_now_button'>By Now </div>
-            <p>{description}</p>
         </div>
     );
 };
