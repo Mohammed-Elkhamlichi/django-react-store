@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.css.map";
 import Footer from "./components/Footer/Footer";
 import Navbar from "../src/components/Navbar/Navbar";
 import Container from '../src/components/Container/Container'
