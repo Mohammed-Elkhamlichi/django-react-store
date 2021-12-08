@@ -39,5 +39,11 @@ const Products = [
         description: "iphone 13 pro max is the best smart phones exist now",
         price: "1999$",
     },
+    {
+        img: macBook,
+        title: "Iphone 12 Pro Max 2021",
+        description: "iphone 13 pro max is the best smart phones exist now",
+        price: "1999$",
+    },
 ];
 export default Products;

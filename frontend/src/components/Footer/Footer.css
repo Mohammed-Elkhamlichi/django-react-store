@@ -1,11 +1,11 @@
-.footer{
-    background: brown;
+.footer {
+    background-color: rgb(179, 6, 58);
     color: white;
     font-weight: bold;
     text-align: center;
     padding: 5px 10px;
 }
-.footer > p{
+.footer > p {
     font-size: 10px;
     color: cyan;
 }
