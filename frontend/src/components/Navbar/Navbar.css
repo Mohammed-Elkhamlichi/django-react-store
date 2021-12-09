@@ -3,6 +3,7 @@
     height: 60px;
     border: white;
     margin-top: 10px;
+    width: 100%;
 }
 .navbar > a {
     color: white;

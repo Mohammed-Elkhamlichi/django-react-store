@@ -1,17 +1,16 @@
 import React from "react";
 import "./Navbar.css";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.css.map";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css.map";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <div className='bg-success text-light'>
             <nav className='navbar'>
-                <a className='logo' href='/'>
+                <Link className='logo' to='/'>
                     Mohammed Elkhamlichi
-                </a>
+                </Link>
                 <ul>
                     <li>
                         <a href='/'>Home</a>

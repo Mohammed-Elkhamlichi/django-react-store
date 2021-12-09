@@ -1,0 +1,29 @@
+.page_not_found {
+    background-color: rgb(194, 233, 197);
+    height: 500px;
+    text-align: center;
+}
+.page_not_found_headline {
+    font-size: 30px;
+    padding-top: 230px;
+}
+
+.back_home_button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: padding 1s transform 2s;
+    transition-delay: 1s;
+}
+
+.back_home_button:hover {
+    border: 1px solid white;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+

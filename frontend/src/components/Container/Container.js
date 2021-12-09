@@ -1,8 +1,8 @@
 import React from "react";
-import Product from "./product/Product";
-import "./Container.css";
-import Products from "../data/Products";
 import { Link } from "react-router-dom";
+import Product from "./product/Product";
+import Products from "../data/Products";
+import "./Container.css";
 
 const Container = () => {
     return (
@@ -10,7 +10,11 @@ const Container = () => {
             <div className='products'>
                 {Products.map((product) => {
                     return (
-                        <Link style={{ textDecoration: "none" }} to='/product/detail'>
+                        <Link
+                        key={product.id}
+                            style={{ textDecoration: "none" }}
+                            to={"product/" + product.id + "/detail"}
+                        >
                             <Product product={product} />
                         </Link>
                     );
@@ -19,5 +23,4 @@ const Container = () => {
         </div>
     );
 };
-
 export default Container;

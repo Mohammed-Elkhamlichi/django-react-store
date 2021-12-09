@@ -16,8 +16,9 @@ const Product = (props) => {
                     alt=''
                     width='32px'
                     height='32px'
-                />{" "}
-                By Now
+                />
+                {"  "}
+                Add To Card
             </div>
         </div>
     );

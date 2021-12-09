@@ -1,6 +1,7 @@
 .container {
     background-color: rgb(179, 6, 58);
     justify-content: stretch;
+    width: 100%;
 }
 .products {
     display: grid;
@@ -12,13 +13,13 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 766px) {
     .products {
-        width: auto;
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 766px){
     .products {
         width: auto;
         grid-template-columns: repeat(3, 1fr);
