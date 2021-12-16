@@ -19,7 +19,7 @@ const Index = () => {
                         <Route
                             path='/product/:id/detail'
                             element={<ProductDetail />}
-                        ></Route>
+                        />
                         <Route path='*' element={<PageNotFound />} />
                     </Routes>
                     <Footer />
